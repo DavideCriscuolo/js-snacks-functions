@@ -2,12 +2,20 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
-
 // Dichiara la funzione qui.
+function CreateArrayCommonLetter(nomi, char) {
+  const arrayCommonLetter = [];
 
+  for (let i = 0; i < nomi.length; i++) {
+    if (nomi[i].charAt(0) === char) {
+      arrayCommonLetter.push(nomi[i]);
+    }
+  }
+
+  return arrayCommonLetter;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
-
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
+console.log(CreateArrayCommonLetter(names, "A"));
