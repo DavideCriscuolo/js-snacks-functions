@@ -13,3 +13,14 @@ function saluta(nome) {
 console.log(saluta(userName));
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
+
+// Arrow Fuction
+/*
+const saluta = (nome) => {
+  let saluto = "Ciao";
+  let salutoCompleto = saluto + " " + nome;
+  return salutoCompleto;
+  
+}
+console.log(saluta(userName));
+*/
