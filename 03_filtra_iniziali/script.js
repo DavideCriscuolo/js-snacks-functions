@@ -7,7 +7,8 @@ function CreateArrayCommonLetter(nomi, char) {
   const arrayCommonLetter = [];
 
   for (let i = 0; i < nomi.length; i++) {
-    if (nomi[i].charAt(0) === char) {
+    nome = nomi[i];
+    if (nome.charAt(0) === char) {
       arrayCommonLetter.push(nomi[i]);
     }
   }
