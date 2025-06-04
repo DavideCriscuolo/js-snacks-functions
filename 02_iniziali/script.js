@@ -16,3 +16,15 @@ function createArray(nomi) {
 console.log(createArray(names));
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
+
+//Arrow fuction
+/*
+const  createArray=(nomi)=> {
+  const InitialArray = [];
+  for (let i = 0; i < nomi.length; i++) {
+    InitialArray.push(nomi[i].charAt(0));
+  }
+  return InitialArray;
+}
+console.log(createArray(names));
+*/
