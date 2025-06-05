@@ -11,7 +11,7 @@ const name = "Mario";
 function saluta(nome) {
   //         anno, mese, giorno, ora, minuto,secondo,ms
   const data = new Date(); //costruttore è una funzione speciale che crea ogetti
-  let ora = data.getHours();
+  let ora = data.getHours(); //metodo get
   if (ora <= 13) {
     return `Buongiorno ${nome}`;
   } else if (ora <= 17) {
@@ -21,8 +21,6 @@ function saluta(nome) {
   } else {
     return "Ciao";
   }
-
-  return ``;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
